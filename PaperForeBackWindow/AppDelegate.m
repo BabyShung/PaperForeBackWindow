@@ -7,12 +7,31 @@
 //
 
 #import "AppDelegate.h"
+#import "ProfileViewController.h"
+#import "CardsViewController.h"
+
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"Profile"];
+    [self.window makeKeyAndVisible];
+    
+    self.foregroundWindow = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.foregroundWindow.backgroundColor = [UIColor clearColor];
+    self.foregroundWindow.rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"CardsNav"];
+    self.foregroundWindow.windowLevel = UIWindowLevelStatusBar;
+    self.foregroundWindow.hidden = NO;
+    
+    
     return YES;
 }
 							
