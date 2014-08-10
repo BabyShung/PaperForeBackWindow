@@ -26,26 +26,41 @@ static NSString *CellIdentifier = @"Cell";
 {
     [super viewDidLoad];
     
+    [self loadControls];
+    
+    
+}
+
+-(void)loadControls{
     //registering dequueue cell
     [self.collectionView registerClass:[EDCollectionCell class] forCellWithReuseIdentifier:CellIdentifier];
-    
     self.collectionView.backgroundColor = [UIColor grayColor];
-    
-    
     self.collectionView.layer.cornerRadius = 8.0f;
+    
     
     // Pan for a dismissal using UIKit Dynamics
     UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(didPan:)];
     [self.view addGestureRecognizer:panGesture];
     
     self.animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view.superview];
-    
-    
+    //NSLog(@"what!!: %@",self.collectionView.superview);
 }
 
-- (void)didPan:(UIPanGestureRecognizer *)gesture
-{
+- (void)didPan:(UIPanGestureRecognizer *)gesture{
+    
     CGPoint location = [gesture locationInView:self.view.superview];
+    
+    //NSLog(@"what: %@",self.view.superview);
+    
+    
+    //offset
+//    CGPoint offsetXandY = [gesture translationInView:self.view.superview];
+//    
+//    self.view.center = CGPointMake(self.view.center.x, self.view.center.y + offsetXandY.y);
+//    
+//    [gesture setTranslation:CGPointZero inView:self.view.superview];
+    
+    
     
     switch (gesture.state) {
         case UIGestureRecognizerStateBegan: {
@@ -56,8 +71,8 @@ static NSString *CellIdentifier = @"Cell";
             
             // Give the view some rotation
             UIDynamicItemBehavior *rotationBehavior = [[UIDynamicItemBehavior alloc] initWithItems:@[self.view]];
-            rotationBehavior.allowsRotation = YES;
-            rotationBehavior.angularResistance = 10.0f;
+            //rotationBehavior.allowsRotation = YES;
+            //rotationBehavior.angularResistance = 10.0f;
             
             [self.animator addBehavior:rotationBehavior];
             

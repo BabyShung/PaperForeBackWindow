@@ -24,58 +24,6 @@
             </objects>
             <point key="canvasLocation" x="521" y="-246"/>
         </scene>
-        <!--Back View Controller-->
-        <scene sceneID="CZJ-yh-U6A">
-            <objects>
-                <viewController storyboardIdentifier="back" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GaI-Jr-HSn" customClass="backViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="B23-r4-6mq"/>
-                        <viewControllerLayoutGuide type="bottom" id="Pdz-G4-Pol"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Jvl-A1-a8T">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dOX-Pq-cg7">
-                                <rect key="frame" x="186" y="168" width="51" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="g4V-96-Tck" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-48" y="649"/>
-        </scene>
-        <!--Fore View Controller-->
-        <scene sceneID="dH9-91-sdW">
-            <objects>
-                <viewController storyboardIdentifier="fore" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JmA-V8-PWd" customClass="foreViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="pIu-Lc-9Xl"/>
-                        <viewControllerLayoutGuide type="bottom" id="Ac8-a5-Gih"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fjj-5S-Gdo">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Z28-en-tfk">
-                                <rect key="frame" x="99" y="234" width="123" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="First"/>
-                                    <segment title="Second"/>
-                                </segments>
-                            </segmentedControl>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="y4q-sD-Xxz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="369" y="634"/>
-        </scene>
         <!--Profile View Controller-->
         <scene sceneID="9C7-AI-vNK">
             <objects>
@@ -90,7 +38,7 @@
                             <inset key="sectionInset" minX="0.0" minY="50" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="7Vh-XU-HAZ" customClass="SettingsCell">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="7Vh-XU-HAZ" customClass="ProfileCell">
                                 <rect key="frame" x="45" y="50" width="230" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">

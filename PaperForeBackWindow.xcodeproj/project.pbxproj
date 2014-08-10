@@ -20,7 +20,7 @@
 		B8B2B4A21997F3EF002B8A7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B2B4841997F3EF002B8A7B /* UIKit.framework */; };
 		B8B2B4AA1997F3EF002B8A7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8B2B4A81997F3EF002B8A7B /* InfoPlist.strings */; };
 		B8B2B4AC1997F3EF002B8A7B /* PaperForeBackWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B2B4AB1997F3EF002B8A7B /* PaperForeBackWindowTests.m */; };
-		B8B2B4BE1997F42D002B8A7B /* SettingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B2B4B61997F42D002B8A7B /* SettingsCell.m */; };
+		B8B2B4BE1997F42D002B8A7B /* ProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B2B4B61997F42D002B8A7B /* ProfileCell.m */; };
 		B8B2B4BF1997F42D002B8A7B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B2B4B81997F42D002B8A7B /* ProfileViewController.m */; };
 		B8B2B4C01997F42D002B8A7B /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B2B4BA1997F42D002B8A7B /* CardsViewController.m */; };
 		B8B2B4C11997F42D002B8A7B /* EDB_tutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B2B4BB1997F42D002B8A7B /* EDB_tutorial.png */; };
@@ -30,6 +30,7 @@
 		B8B2B4D01997F7DC002B8A7B /* largeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B2B4CE1997F7DC002B8A7B /* largeLayout.m */; };
 		B8B2B4D31997F869002B8A7B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B2B4D21997F869002B8A7B /* SecondViewController.m */; };
 		B8B2B4D61997FA09002B8A7B /* EDCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B2B4D51997FA09002B8A7B /* EDCollectionCell.m */; };
+		B8B2B4DA1997FE9E002B8A7B /* dragViewBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B2B4D91997FE9E002B8A7B /* dragViewBehavior.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +61,8 @@
 		B8B2B4A71997F3EF002B8A7B /* PaperForeBackWindowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaperForeBackWindowTests-Info.plist"; sourceTree = "<group>"; };
 		B8B2B4A91997F3EF002B8A7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8B2B4AB1997F3EF002B8A7B /* PaperForeBackWindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperForeBackWindowTests.m; sourceTree = "<group>"; };
-		B8B2B4B51997F42D002B8A7B /* SettingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsCell.h; sourceTree = "<group>"; };
-		B8B2B4B61997F42D002B8A7B /* SettingsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsCell.m; sourceTree = "<group>"; };
+		B8B2B4B51997F42D002B8A7B /* ProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileCell.h; sourceTree = "<group>"; };
+		B8B2B4B61997F42D002B8A7B /* ProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileCell.m; sourceTree = "<group>"; };
 		B8B2B4B71997F42D002B8A7B /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		B8B2B4B81997F42D002B8A7B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		B8B2B4B91997F42D002B8A7B /* CardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
@@ -77,6 +78,8 @@
 		B8B2B4D21997F869002B8A7B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B8B2B4D41997FA09002B8A7B /* EDCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDCollectionCell.h; sourceTree = "<group>"; };
 		B8B2B4D51997FA09002B8A7B /* EDCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDCollectionCell.m; sourceTree = "<group>"; };
+		B8B2B4D81997FE9E002B8A7B /* dragViewBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dragViewBehavior.h; sourceTree = "<group>"; };
+		B8B2B4D91997FE9E002B8A7B /* dragViewBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dragViewBehavior.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 		B8B2B4741997F3EF002B8A7B = {
 			isa = PBXGroup;
 			children = (
+				B8B2B4D81997FE9E002B8A7B /* dragViewBehavior.h */,
+				B8B2B4D91997FE9E002B8A7B /* dragViewBehavior.m */,
 				B8B2B4861997F3EF002B8A7B /* PaperForeBackWindow */,
 				B8B2B4A51997F3EF002B8A7B /* PaperForeBackWindowTests */,
 				B8B2B47F1997F3EF002B8A7B /* Frameworks */,
@@ -136,15 +141,12 @@
 		B8B2B4861997F3EF002B8A7B /* PaperForeBackWindow */ = {
 			isa = PBXGroup;
 			children = (
+				B8B2B4B51997F42D002B8A7B /* ProfileCell.h */,
+				B8B2B4B61997F42D002B8A7B /* ProfileCell.m */,
 				B8B2B4D41997FA09002B8A7B /* EDCollectionCell.h */,
 				B8B2B4D51997FA09002B8A7B /* EDCollectionCell.m */,
-				B8B2B4CB1997F7DC002B8A7B /* smallLayout.h */,
-				B8B2B4CC1997F7DC002B8A7B /* smallLayout.m */,
-				B8B2B4CD1997F7DC002B8A7B /* largeLayout.h */,
-				B8B2B4CE1997F7DC002B8A7B /* largeLayout.m */,
+				B8B2B4D71997FD92002B8A7B /* layouts */,
 				B8B2B4C41997F436002B8A7B /* VCs */,
-				B8B2B48F1997F3EF002B8A7B /* AppDelegate.h */,
-				B8B2B4901997F3EF002B8A7B /* AppDelegate.m */,
 				B8B2B4921997F3EF002B8A7B /* Main.storyboard */,
 				B8B2B4D11997F869002B8A7B /* SecondViewController.h */,
 				B8B2B4D21997F869002B8A7B /* SecondViewController.m */,
@@ -157,6 +159,8 @@
 		B8B2B4871997F3EF002B8A7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B8B2B48F1997F3EF002B8A7B /* AppDelegate.h */,
+				B8B2B4901997F3EF002B8A7B /* AppDelegate.m */,
 				B8B2B4881997F3EF002B8A7B /* PaperForeBackWindow-Info.plist */,
 				B8B2B4891997F3EF002B8A7B /* InfoPlist.strings */,
 				B8B2B48C1997F3EF002B8A7B /* main.m */,
@@ -186,8 +190,6 @@
 		B8B2B4C41997F436002B8A7B /* VCs */ = {
 			isa = PBXGroup;
 			children = (
-				B8B2B4B51997F42D002B8A7B /* SettingsCell.h */,
-				B8B2B4B61997F42D002B8A7B /* SettingsCell.m */,
 				B8B2B4B71997F42D002B8A7B /* ProfileViewController.h */,
 				B8B2B4B81997F42D002B8A7B /* ProfileViewController.m */,
 				B8B2B4B91997F42D002B8A7B /* CardsViewController.h */,
@@ -197,6 +199,17 @@
 				B8B2B4BD1997F42D002B8A7B /* EDB_aboutus.png */,
 			);
 			name = VCs;
+			sourceTree = "<group>";
+		};
+		B8B2B4D71997FD92002B8A7B /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				B8B2B4CB1997F7DC002B8A7B /* smallLayout.h */,
+				B8B2B4CC1997F7DC002B8A7B /* smallLayout.m */,
+				B8B2B4CD1997F7DC002B8A7B /* largeLayout.h */,
+				B8B2B4CE1997F7DC002B8A7B /* largeLayout.m */,
+			);
+			name = layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,11 +315,12 @@
 				B8B2B4911997F3EF002B8A7B /* AppDelegate.m in Sources */,
 				B8B2B48D1997F3EF002B8A7B /* main.m in Sources */,
 				B8B2B4BF1997F42D002B8A7B /* ProfileViewController.m in Sources */,
-				B8B2B4BE1997F42D002B8A7B /* SettingsCell.m in Sources */,
+				B8B2B4BE1997F42D002B8A7B /* ProfileCell.m in Sources */,
 				B8B2B4D31997F869002B8A7B /* SecondViewController.m in Sources */,
 				B8B2B4C01997F42D002B8A7B /* CardsViewController.m in Sources */,
 				B8B2B4D61997FA09002B8A7B /* EDCollectionCell.m in Sources */,
 				B8B2B4D01997F7DC002B8A7B /* largeLayout.m in Sources */,
+				B8B2B4DA1997FE9E002B8A7B /* dragViewBehavior.m in Sources */,
 				B8B2B4CF1997F7DC002B8A7B /* smallLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +526,7 @@
 				B8B2B4B11997F3F0002B8A7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8B2B4B21997F3F0002B8A7B /* Build configuration list for PBXNativeTarget "PaperForeBackWindowTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +535,7 @@
 				B8B2B4B41997F3F0002B8A7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

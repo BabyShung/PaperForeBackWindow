@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Hao Zheng. All rights reserved.
 //
 
-#import "SettingsCell.h"
+#import "ProfileCell.h"
 
-@implementation SettingsCell
+@implementation ProfileCell
 
 - (id)initWithFrame:(CGRect)frame
 {

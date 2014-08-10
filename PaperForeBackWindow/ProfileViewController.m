@@ -7,7 +7,7 @@
 //
 
 #import "ProfileViewController.h"
-#import "SettingsCell.h"
+#import "ProfileCell.h"
 
 @interface ProfileViewController ()
 
@@ -58,7 +58,7 @@ const NSString *settingCellIdentity = @"Cell";
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    SettingsCell *cell = (SettingsCell *)[collectionView dequeueReusableCellWithReuseIdentifier:[settingCellIdentity copy] forIndexPath:indexPath];
+    ProfileCell *cell = (ProfileCell *)[collectionView dequeueReusableCellWithReuseIdentifier:[settingCellIdentity copy] forIndexPath:indexPath];
     cell.profileLabel.text = [self.profileData objectAtIndex:indexPath.row];
     cell.profileImageView.image = self.profileImagesData[indexPath.row];
     return cell;
