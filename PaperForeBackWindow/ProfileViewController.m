@@ -65,6 +65,8 @@ const NSString *settingCellIdentity = @"Cell";
     
 }
 
-
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    NSLog(@"yoyo");
+}
 
 @end
