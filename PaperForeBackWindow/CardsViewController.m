@@ -27,9 +27,7 @@ static NSString *CellIdentifier = @"Cell";
     [self loadControls];
     
 }
--(UIStatusBarStyle)preferredStatusBarStyle{
-    return UIStatusBarStyleLightContent;
-}
+
 -(void)loadControls{
     //registering dequueue cell
     [self.collectionView registerClass:[EDCollectionCell class] forCellWithReuseIdentifier:CellIdentifier];
@@ -39,14 +37,13 @@ static NSString *CellIdentifier = @"Cell";
     
 }
 
-
 /*******************************
  
  collection view delegate
  
  *****************************/
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 3;
+    return 5;
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
@@ -63,6 +60,10 @@ static NSString *CellIdentifier = @"Cell";
 
 -(void)viewDidAppear:(BOOL)animated{
     self.collectionView.decelerationRate = UIScrollViewDecelerationRateNormal;
+}
+
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
 }
 
 @end

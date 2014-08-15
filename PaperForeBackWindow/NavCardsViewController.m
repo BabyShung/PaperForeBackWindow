@@ -7,12 +7,8 @@
 //
 
 #import "NavCardsViewController.h"
-
 #import "dragViewBehavior.h"
 #import "AppDelegate.h"
-
-
-
 
 @interface NavCardsViewController ()
 
@@ -29,8 +25,7 @@
 
 @implementation NavCardsViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
     
     [self loadControls];
@@ -65,7 +60,6 @@
     _tapRecognizer.enabled = NO;
     [self animateDragViewWithInitialVelocity:CGPointMake(0, -300)];
 }
-
 
 - (void)didPan:(UIPanGestureRecognizer *)gesture{
     
@@ -117,6 +111,7 @@
     [self.animator addBehavior:self.dragBehavior];
 }
 
+//getter
 - (CGPoint)targetPoint{
     
     CGSize size = self.view.bounds.size;
@@ -128,7 +123,5 @@
     }
     return result;
 }
-
-
 
 @end

@@ -21,4 +21,5 @@
 -(void)viewDidAppear:(BOOL)animated{
     self.collectionView.decelerationRate = UIScrollViewDecelerationRateFast;
 }
+
 @end

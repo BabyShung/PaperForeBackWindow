@@ -10,17 +10,4 @@
 
 @interface EDCollectionCell : UICollectionViewCell
 
-//@property (strong,nonatomic) FoodInfoView *foodInfoView;
-
-//This function must be called before large layout cells appear
-//-(void) setVCForFoodInfoView:(UIViewController *)vc;
-//
-//-(void) setUpForLargeLayout;
-//
-//-(void) setUpForSmallLayout;
-
-//Setup the cell with the food object
-//-(void) configFIVForCell:(NSInteger)cellno withFood:(Food *) food;
-
-
 @end

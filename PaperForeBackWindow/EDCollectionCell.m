@@ -7,13 +7,9 @@
 //
 
 #import "EDCollectionCell.h"
-//#import "LoadControls.h"
-#import "largeLayout.h"
-#import "smallLayout.h"
 
 @interface EDCollectionCell()
 
-@property (strong,nonatomic,readwrite) NSString *foodTitle;
 @end
 
 @implementation EDCollectionCell

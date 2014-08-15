@@ -11,7 +11,6 @@
 
 @interface ProfileViewController ()
 
-
 @property (strong,nonatomic) NSArray *profileData;
 
 @property (strong,nonatomic) NSArray *profileImagesData;

@@ -81,8 +81,8 @@
 		B8B2B4D21997F869002B8A7B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B8B2B4D41997FA09002B8A7B /* EDCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDCollectionCell.h; sourceTree = "<group>"; };
 		B8B2B4D51997FA09002B8A7B /* EDCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDCollectionCell.m; sourceTree = "<group>"; };
-		B8B2B4D81997FE9E002B8A7B /* dragViewBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dragViewBehavior.h; sourceTree = "<group>"; };
-		B8B2B4D91997FE9E002B8A7B /* dragViewBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dragViewBehavior.m; sourceTree = "<group>"; };
+		B8B2B4D81997FE9E002B8A7B /* dragViewBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dragViewBehavior.h; path = ../dragViewBehavior.h; sourceTree = "<group>"; };
+		B8B2B4D91997FE9E002B8A7B /* dragViewBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = dragViewBehavior.m; path = ../dragViewBehavior.m; sourceTree = "<group>"; };
 		B8B2B4DB199801C9002B8A7B /* draggableViewState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = draggableViewState.h; path = ../draggableViewState.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,8 +113,6 @@
 		B8B2B4741997F3EF002B8A7B = {
 			isa = PBXGroup;
 			children = (
-				B8B2B4D81997FE9E002B8A7B /* dragViewBehavior.h */,
-				B8B2B4D91997FE9E002B8A7B /* dragViewBehavior.m */,
 				B8B2B4861997F3EF002B8A7B /* PaperForeBackWindow */,
 				B8B2B4A51997F3EF002B8A7B /* PaperForeBackWindowTests */,
 				B8B2B47F1997F3EF002B8A7B /* Frameworks */,
@@ -146,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				B8B2B4DB199801C9002B8A7B /* draggableViewState.h */,
+				B8B2B4D81997FE9E002B8A7B /* dragViewBehavior.h */,
+				B8B2B4D91997FE9E002B8A7B /* dragViewBehavior.m */,
 				B8B2B4B51997F42D002B8A7B /* ProfileCell.h */,
 				B8B2B4B61997F42D002B8A7B /* ProfileCell.m */,
 				B8B2B4D41997FA09002B8A7B /* EDCollectionCell.h */,
