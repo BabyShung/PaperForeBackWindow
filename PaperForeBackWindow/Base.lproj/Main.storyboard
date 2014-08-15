@@ -50,7 +50,7 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztr-Dy-h1B">
-                                            <rect key="frame" x="81" y="10" width="129" height="40"/>
+                                            <rect key="frame" x="81" y="10" width="137" height="40"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
                                             <nil key="highlightedColor"/>
@@ -76,10 +76,10 @@
             </objects>
             <point key="canvasLocation" x="965" y="-240"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Nav Cards View Controller-->
         <scene sceneID="qGf-wR-z2v">
             <objects>
-                <navigationController storyboardIdentifier="CardsNav" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" navigationBarHidden="YES" id="gNV-2X-A4i" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="CardsNav" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" navigationBarHidden="YES" id="gNV-2X-A4i" customClass="NavCardsViewController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="skp-N7-ehZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

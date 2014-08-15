@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B89CC7FB199D5C26004FEB7A /* NavCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B89CC7FA199D5C26004FEB7A /* NavCardsViewController.m */; };
 		B8B2B4811997F3EF002B8A7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B2B4801997F3EF002B8A7B /* Foundation.framework */; };
 		B8B2B4831997F3EF002B8A7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B2B4821997F3EF002B8A7B /* CoreGraphics.framework */; };
 		B8B2B4851997F3EF002B8A7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B2B4841997F3EF002B8A7B /* UIKit.framework */; };
@@ -44,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B89CC7F9199D5C26004FEB7A /* NavCardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavCardsViewController.h; sourceTree = "<group>"; };
+		B89CC7FA199D5C26004FEB7A /* NavCardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavCardsViewController.m; sourceTree = "<group>"; };
 		B8B2B47D1997F3EF002B8A7B /* PaperForeBackWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperForeBackWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B2B4801997F3EF002B8A7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B8B2B4821997F3EF002B8A7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -196,6 +199,8 @@
 				B8B2B4B81997F42D002B8A7B /* ProfileViewController.m */,
 				B8B2B4B91997F42D002B8A7B /* CardsViewController.h */,
 				B8B2B4BA1997F42D002B8A7B /* CardsViewController.m */,
+				B89CC7F9199D5C26004FEB7A /* NavCardsViewController.h */,
+				B89CC7FA199D5C26004FEB7A /* NavCardsViewController.m */,
 				B8B2B4BB1997F42D002B8A7B /* EDB_tutorial.png */,
 				B8B2B4BC1997F42D002B8A7B /* EDB_language.png */,
 				B8B2B4BD1997F42D002B8A7B /* EDB_aboutus.png */,
@@ -321,6 +326,7 @@
 				B8B2B4D31997F869002B8A7B /* SecondViewController.m in Sources */,
 				B8B2B4C01997F42D002B8A7B /* CardsViewController.m in Sources */,
 				B8B2B4D61997FA09002B8A7B /* EDCollectionCell.m in Sources */,
+				B89CC7FB199D5C26004FEB7A /* NavCardsViewController.m in Sources */,
 				B8B2B4D01997F7DC002B8A7B /* largeLayout.m in Sources */,
 				B8B2B4DA1997FE9E002B8A7B /* dragViewBehavior.m in Sources */,
 				B8B2B4CF1997F7DC002B8A7B /* smallLayout.m in Sources */,

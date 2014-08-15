@@ -11,7 +11,6 @@
 
 @interface ProfileViewController ()
 
-@property (nonatomic, strong) UIViewController *cardsVC;
 
 @property (strong,nonatomic) NSArray *profileData;
 
@@ -23,15 +22,11 @@
 
 const NSString *settingCellIdentity = @"Cell";
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
+    
     [super viewDidLoad];
     
     self.collectionView.backgroundColor = [UIColor orangeColor];
-    
-    //also init secondVC
-    self.cardsVC = [self.storyboard instantiateViewControllerWithIdentifier:@"Cards"];
-    
     
     self.profileData = [NSArray arrayWithObjects:
                      @"aa",
@@ -44,7 +39,6 @@ const NSString *settingCellIdentity = @"Cell";
                            [UIImage imageNamed:@"EDB_aboutus.png"],
                            nil];
 }
-
 
 
 #pragma mark - UICollectionViewDataSource Methods
